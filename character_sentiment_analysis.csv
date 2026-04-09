@@ -1,0 +1,32 @@
+Character,Sentiment,Sentiment Category
+Mrs. Otterton,0.3969625,Positive
+Sharla,0.36182,Positive
+Yax,0.30397857142857143,Positive
+Gazelle,0.213,Positive
+Finnick,0.18636666666666665,Positive
+Fru Fru,0.16794285714285717,Positive
+Bonnie Hopps,0.16042857142857145,Positive
+Woodchuck Bully,0.15896000000000002,Positive
+Stu Hopps,0.08685348837209303,Positive
+Nick Wilde,0.08043483870967742,Positive
+Leodore Lionheart,0.07416111111111111,Positive
+Duke Weaselton,0.06975454545454546,Positive
+Benjamin Clawhauser,0.063124,Positive
+Flash Slothmore,0.06185357142857143,Positive
+Dawn Bellwether,0.06124500000000001,Positive
+Judy Hopps,0.06041470588235295,Positive
+Gideon Grey,0.05669999999999997,Positive
+Mr. Big,0.03833333333333333,Neutral
+Dr. Madge Honey Badger,-0.00958,Neutral
+Bucky Oryxantlerson,-0.011099999999999999,Neutral
+Jerry Jumbeaux Jr.,-0.04043333333333333,Neutral
+Nangi,-0.059199999999999996,Negative
+Chief Bogo,-0.07032083333333335,Negative
+Woolter,-0.11983333333333333,Negative
+Doug,-0.14288571428571428,Negative
+Renato Manchas,-0.16214999999999996,Negative
+Pronk Oryxantlerson,-0.18556,Negative
+Frantic Pig,-0.24026666666666666,Negative
+Young Gideon Grey,-0.5729777777777777,Negative
+Fabienne Growley,-0.5744666666666667,Negative
+Major Friedkin,-0.6795571428571429,Negative
