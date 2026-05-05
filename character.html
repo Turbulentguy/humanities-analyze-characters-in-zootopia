@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Character Profile | Zootopia Dialogue Atlas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="character.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <a class="back-link" href="index.html">Back to Dashboard</a>
+
+      <section class="profile-card">
+        <div class="profile-head">
+          <div class="avatar" aria-hidden="true">
+            <img id="characterImage" class="avatar-img" alt="Character avatar" loading="lazy" />
+            <span id="characterFallback" class="avatar-fallback">🎬</span>
+          </div>
+          <div>
+            <p class="eyebrow">Character Profile</p>
+            <h1 id="characterName">Loading...</h1>
+            <p id="characterInsight" class="insight"></p>
+          </div>
+        </div>
+
+        <div class="stats-grid">
+          <article class="stat-item">
+            <p>Dialogues</p>
+            <strong id="dialogueCount">-</strong>
+          </article>
+          <article class="stat-item">
+            <p>Dialogue Share</p>
+            <strong id="dialogueShare">-</strong>
+          </article>
+          <article class="stat-item">
+            <p>Sentiment Category</p>
+            <strong id="sentimentCategory">-</strong>
+          </article>
+          <article class="stat-item">
+            <p>Sentiment Score</p>
+            <strong id="sentimentScore">-</strong>
+          </article>
+        </div>
+
+        <section class="section-block">
+          <h2>Characteristic Keywords</h2>
+          <div id="keywordList" class="tags"></div>
+        </section>
+
+        <section class="section-block">
+          <h2>Sample Dialogues</h2>
+          <ul id="sampleLines" class="lines"></ul>
+        </section>
+      </section>
+    </main>
+
+    <script src="character.js"></script>
+  </body>
+</html>

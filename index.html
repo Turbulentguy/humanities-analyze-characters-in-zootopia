@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Understanding Characters Through Dialogue & Emotion in Zootopia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-shape bg-shape-one" aria-hidden="true"></div>
+    <div class="bg-shape bg-shape-two" aria-hidden="true"></div>
+
+    <main class="container">
+      <section class="hero">
+        <p class="eyebrow">Zootopia Dialogue Atlas</p>
+        <h1>Zootopia Humanities Characters Analysis</h1>
+        <p class="subtitle">
+          This storytelling dashboard maps how characters shape the film through spoken presence,
+          sentiment, and personality signals.
+        </p>
+        <div class="hero-actions">
+          <a href="#insights" class="cta">Explore Insights</a>
+        </div>
+      </section>
+
+      <section id="visualization" class="panel">
+        <div class="panel-header">
+          <div>
+            <h2>Character Impact Lens</h2>
+            <p>Sorted by impact. Hover bars for context and click any character to filter the story.</p>
+          </div>
+          <div class="toggle" role="group" aria-label="View mode toggle">
+            <button id="dialogueModeBtn" class="toggle-btn is-active" type="button">Dialogue Count</button>
+            <button id="sentimentModeBtn" class="toggle-btn" type="button">Sentiment View</button>
+          </div>
+        </div>
+        <div class="chart-wrap">
+          <canvas id="dialogueChart" aria-label="Bar chart of dialogues per character" role="img"></canvas>
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="panel-header">
+          <h2>Featured Characters</h2>
+          <p>Each card blends dialogue presence, sentiment signature, and personality insight.</p>
+        </div>
+        <div id="characterCards" class="cards"></div>
+      </section>
+
+      <section id="insights" class="panel insights">
+        <h2>Key Insights</h2>
+        <p id="insightLead" class="insight-lead"></p>
+        <ul id="insightList"></ul>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
